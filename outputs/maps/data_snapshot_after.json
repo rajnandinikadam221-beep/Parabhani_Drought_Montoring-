@@ -1,0 +1,888 @@
+{
+ "point_index_values.csv": {
+  "rows": 580242,
+  "cols": 10,
+  "columns": [
+   "tehsil",
+   "month",
+   "lon",
+   "lat",
+   "NDVI",
+   "EVI",
+   "PCI",
+   "SPI-3",
+   "SPI-6",
+   "SSMI"
+  ],
+  "null_counts": {
+   "tehsil": 0,
+   "month": 0,
+   "lon": 0,
+   "lat": 0,
+   "NDVI": 99250,
+   "EVI": 99250,
+   "PCI": 99250,
+   "SPI-3": 0,
+   "SPI-6": 0,
+   "SSMI": 0
+  },
+  "numeric_summary": {
+   "lon": {
+    "mean": 76.68910621,
+    "min": 76.21126153,
+    "max": 77.18740555
+   },
+   "lat": {
+    "mean": 19.26747623,
+    "min": 18.75322959,
+    "max": 19.82328834
+   },
+   "NDVI": {
+    "mean": 0.40995524,
+    "min": -1.0,
+    "max": 1.0
+   },
+   "EVI": {
+    "mean": 0.26770073,
+    "min": -0.32012483,
+    "max": 1.4379752
+   },
+   "PCI": {
+    "mean": 0.83106521,
+    "min": -1.0,
+    "max": 7.1012483
+   },
+   "SPI-3": {
+    "mean": 0.3096124,
+    "min": -2.231,
+    "max": 2.985
+   },
+   "SPI-6": {
+    "mean": 0.63210078,
+    "min": -2.084,
+    "max": 3.21
+   },
+   "SSMI": {
+    "mean": 0.01677131,
+    "min": -2.397,
+    "max": 2.216
+   }
+  },
+  "month_min": "2016-01",
+  "month_max": "2026-10",
+  "md5": "294ffc48c8da7dd7b3ff3abbf3f3b627"
+ },
+ "rf_classification_report.csv": {
+  "rows": 6,
+  "cols": 5,
+  "columns": [
+   "Unnamed: 0",
+   "precision",
+   "recall",
+   "f1-score",
+   "support"
+  ],
+  "null_counts": {
+   "Unnamed: 0": 0,
+   "precision": 0,
+   "recall": 0,
+   "f1-score": 0,
+   "support": 0
+  },
+  "numeric_summary": {
+   "precision": {
+    "mean": 0.66957639,
+    "min": 0.16666667,
+    "max": 0.95
+   },
+   "recall": {
+    "mean": 0.67681594,
+    "min": 0.28571429,
+    "max": 0.82051282
+   },
+   "f1-score": {
+    "mean": 0.66554527,
+    "min": 0.21052632,
+    "max": 0.85393258
+   },
+   "support": {
+    "mean": 91.62932605,
+    "min": 0.77595628,
+    "max": 183.0
+   }
+  },
+  "md5": "c5d7789992619397ae93109a58a04774"
+ },
+ "rf_classification_report_spi3_stage.csv": {
+  "rows": 7,
+  "cols": 5,
+  "columns": [
+   "Unnamed: 0",
+   "precision",
+   "recall",
+   "f1-score",
+   "support"
+  ],
+  "null_counts": {
+   "Unnamed: 0": 0,
+   "precision": 0,
+   "recall": 0,
+   "f1-score": 0,
+   "support": 0
+  },
+  "numeric_summary": {
+   "precision": {
+    "mean": 0.78329457,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "recall": {
+    "mean": 0.78516863,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "f1-score": {
+    "mean": 0.78422842,
+    "min": 0.0,
+    "max": 1.0
+   },
+   "support": {
+    "mean": 78.55815769,
+    "min": 0.90710383,
+    "max": 183.0
+   }
+  },
+  "md5": "a3bc992b4417c42d3c9271023ae1954e"
+ },
+ "sentinel2_indices.csv": {
+  "rows": 129,
+  "cols": 7,
+  "columns": [
+   "month",
+   "scenes_count",
+   "tier",
+   "mask_method",
+   "mean_ndvi",
+   "mean_evi",
+   "mean_pci"
+  ],
+  "null_counts": {
+   "month": 0,
+   "scenes_count": 0,
+   "tier": 0,
+   "mask_method": 0,
+   "mean_ndvi": 2,
+   "mean_evi": 2,
+   "mean_pci": 2
+  },
+  "numeric_summary": {
+   "scenes_count": {
+    "mean": 17.7751938,
+    "min": 1,
+    "max": 40
+   },
+   "mean_ndvi": {
+    "mean": 0.41897008,
+    "min": 0.062,
+    "max": 0.7505
+   },
+   "mean_evi": {
+    "mean": 0.29120315,
+    "min": 0.0522,
+    "max": 0.7296
+   },
+   "mean_pci": {
+    "mean": 0.8817622,
+    "min": 0.1471,
+    "max": 2.5746
+   }
+  },
+  "month_min": "2016-01",
+  "month_max": "2026-10",
+  "md5": "4c812c7356bafd2b4e1677688dd05b48"
+ },
+ "soil_moisture_ssmi.csv": {
+  "rows": 1170,
+  "cols": 4,
+  "columns": [
+   "tehsil",
+   "month",
+   "sm_mean",
+   "SSMI"
+  ],
+  "null_counts": {
+   "tehsil": 0,
+   "month": 0,
+   "sm_mean": 0,
+   "SSMI": 0
+  },
+  "numeric_summary": {
+   "sm_mean": {
+    "mean": 0.26031655,
+    "min": 0.05785271,
+    "max": 0.49057522
+   },
+   "SSMI": {
+    "mean": -1.282e-05,
+    "min": -2.487,
+    "max": 2.216
+   }
+  },
+  "month_min": "2016-01",
+  "month_max": "2026-10",
+  "md5": "564aed7e68ec9723afef5dedffce2380"
+ },
+ "stage_area_summary.csv": {
+  "rows": 5850,
+  "cols": 6,
+  "columns": [
+   "tehsil",
+   "month",
+   "stage",
+   "stage_name",
+   "area_km2",
+   "pct_area"
+  ],
+  "null_counts": {
+   "tehsil": 0,
+   "month": 0,
+   "stage": 0,
+   "stage_name": 0,
+   "area_km2": 0,
+   "pct_area": 0
+  },
+  "numeric_summary": {
+   "stage": {
+    "mean": 2.0,
+    "min": 0,
+    "max": 4
+   },
+   "area_km2": {
+    "mean": 140.17177778,
+    "min": 0.0,
+    "max": 1251.97
+   },
+   "pct_area": {
+    "mean": 19.99997949,
+    "min": 0.0,
+    "max": 100.0
+   }
+  },
+  "counts__stage": {
+   "0": 1170,
+   "1": 1170,
+   "2": 1170,
+   "3": 1170,
+   "4": 1170
+  },
+  "counts__stage_name": {
+   "Extreme Drought": 1170,
+   "Mild Drought": 1170,
+   "Moderate Drought": 1170,
+   "No Drought": 1170,
+   "Severe Drought": 1170
+  },
+  "month_min": "2016-01",
+  "month_max": "2026-10",
+  "md5": "cc763e9275d16ea3672828cab237de49"
+ },
+ "stratified_sample_points.csv": {
+  "rows": 4498,
+  "cols": 5,
+  "columns": [
+   "tehsil",
+   "x_utm",
+   "y_utm",
+   "lon",
+   "lat"
+  ],
+  "null_counts": {
+   "tehsil": 0,
+   "x_utm": 0,
+   "y_utm": 0,
+   "lon": 0,
+   "lat": 0
+  },
+  "numeric_summary": {
+   "x_utm": {
+    "mean": 677520.86500952,
+    "min": 627251.22169345,
+    "max": 730063.06778231
+   },
+   "y_utm": {
+    "mean": 2131298.41310797,
+    "min": 2074401.52391804,
+    "max": 2192710.51753717
+   },
+   "lon": {
+    "mean": 76.68910621,
+    "min": 76.21126153,
+    "max": 77.18740555
+   },
+   "lat": {
+    "mean": 19.26747623,
+    "min": 18.75322959,
+    "max": 19.82328834
+   }
+  },
+  "md5": "86b25b51b1438ca859da09907d922d95"
+ },
+ "tehsil_drought_stages.csv": {
+  "rows": 1170,
+  "cols": 28,
+  "columns": [
+   "tehsil",
+   "month",
+   "precipitation_sum",
+   "et0_sum",
+   "temperature_mean",
+   "SPI-1",
+   "SPI-3",
+   "SPI-6",
+   "SPI-12",
+   "SSMI",
+   "ssmi_source",
+   "NDVI",
+   "EVI",
+   "PCI",
+   "ndvi_min",
+   "ndvi_max",
+   "VCI",
+   "EVI_z",
+   "PCI_z",
+   "NDVI_z",
+   "SSMI_z",
+   "SPI-3_z",
+   "VCI_z",
+   "CDI",
+   "stage",
+   "stage_name",
+   "dashboard_class",
+   "tehsil_area_km2"
+  ],
+  "null_counts": {
+   "tehsil": 0,
+   "month": 0,
+   "precipitation_sum": 0,
+   "et0_sum": 0,
+   "temperature_mean": 0,
+   "SPI-1": 0,
+   "SPI-3": 0,
+   "SPI-6": 0,
+   "SPI-12": 0,
+   "SSMI": 0,
+   "ssmi_source": 0,
+   "NDVI": 95,
+   "EVI": 95,
+   "PCI": 95,
+   "ndvi_min": 0,
+   "ndvi_max": 0,
+   "VCI": 95,
+   "EVI_z": 95,
+   "PCI_z": 95,
+   "NDVI_z": 95,
+   "SSMI_z": 0,
+   "SPI-3_z": 0,
+   "VCI_z": 95,
+   "CDI": 0,
+   "stage": 0,
+   "stage_name": 0,
+   "dashboard_class": 0,
+   "tehsil_area_km2": 0
+  },
+  "numeric_summary": {
+   "precipitation_sum": {
+    "mean": 92.98230769,
+    "min": 0.0,
+    "max": 483.2
+   },
+   "et0_sum": {
+    "mean": 148.82184615,
+    "min": 5.43,
+    "max": 264.49
+   },
+   "temperature_mean": {
+    "mean": 27.20969012,
+    "min": 20.30322581,
+    "max": 35.40483871
+   },
+   "SPI-1": {
+    "mean": 0.24816923,
+    "min": -2.426,
+    "max": 4.601
+   },
+   "SPI-3": {
+    "mean": 0.30432308,
+    "min": -2.231,
+    "max": 2.985
+   },
+   "SPI-6": {
+    "mean": 0.63423846,
+    "min": -2.084,
+    "max": 3.21
+   },
+   "SPI-12": {
+    "mean": 1.16181538,
+    "min": -1.419,
+    "max": 3.846
+   },
+   "SSMI": {
+    "mean": -1.282e-05,
+    "min": -2.487,
+    "max": 2.216
+   },
+   "NDVI": {
+    "mean": 0.42128335,
+    "min": 0.0547,
+    "max": 0.7698
+   },
+   "EVI": {
+    "mean": 0.28710837,
+    "min": 0.0459,
+    "max": 0.9491
+   },
+   "PCI": {
+    "mean": 0.88279033,
+    "min": 0.0979,
+    "max": 2.7991
+   },
+   "ndvi_min": {
+    "mean": 0.10603333,
+    "min": 0.0547,
+    "max": 0.1526
+   },
+   "ndvi_max": {
+    "mean": 0.75198889,
+    "min": 0.7193,
+    "max": 0.7698
+   },
+   "VCI": {
+    "mean": 48.7635814,
+    "min": 0.0,
+    "max": 100.0
+   },
+   "EVI_z": {
+    "mean": -3.72e-06,
+    "min": -2.734,
+    "max": 2.828
+   },
+   "PCI_z": {
+    "mean": 0.0,
+    "min": -2.639,
+    "max": 2.721
+   },
+   "NDVI_z": {
+    "mean": -9.3e-07,
+    "min": -2.776,
+    "max": 2.53
+   },
+   "SSMI_z": {
+    "mean": -1.197e-05,
+    "min": -2.486,
+    "max": 2.216
+   },
+   "SPI-3_z": {
+    "mean": -7.69e-06,
+    "min": -2.705,
+    "max": 2.265
+   },
+   "VCI_z": {
+    "mean": -0.04945581,
+    "min": -2.0,
+    "max": 2.0
+   },
+   "CDI": {
+    "mean": 0.10875897,
+    "min": -1.887,
+    "max": 1.95
+   },
+   "stage": {
+    "mean": 0.51880342,
+    "min": 0,
+    "max": 3
+   },
+   "tehsil_area_km2": {
+    "mean": 700.83222222,
+    "min": 384.21,
+    "max": 1252.03
+   }
+  },
+  "counts__stage": {
+   "0": 674,
+   "1": 406,
+   "2": 69,
+   "3": 21
+  },
+  "counts__stage_name": {
+   "Mild Drought": 406,
+   "Moderate Drought": 69,
+   "No Drought": 674,
+   "Severe Drought": 21
+  },
+  "counts__dashboard_class": {
+   "Drought": 90,
+   "Non-drought": 674,
+   "Normal": 406
+  },
+  "month_min": "2016-01",
+  "month_max": "2026-10",
+  "md5": "c709b8d4ea217569484dfdac4b8fc37e"
+ },
+ "tehsil_zonal_indices.csv": {
+  "rows": 1170,
+  "cols": 14,
+  "columns": [
+   "tehsil",
+   "month",
+   "precipitation_sum",
+   "et0_sum",
+   "temperature_mean",
+   "SPI-1",
+   "SPI-3",
+   "SPI-6",
+   "SPI-12",
+   "SSMI",
+   "ssmi_source",
+   "NDVI",
+   "EVI",
+   "PCI"
+  ],
+  "null_counts": {
+   "tehsil": 0,
+   "month": 0,
+   "precipitation_sum": 0,
+   "et0_sum": 0,
+   "temperature_mean": 0,
+   "SPI-1": 0,
+   "SPI-3": 0,
+   "SPI-6": 0,
+   "SPI-12": 0,
+   "SSMI": 0,
+   "ssmi_source": 0,
+   "NDVI": 95,
+   "EVI": 95,
+   "PCI": 95
+  },
+  "numeric_summary": {
+   "precipitation_sum": {
+    "mean": 92.98230769,
+    "min": 0.0,
+    "max": 483.2
+   },
+   "et0_sum": {
+    "mean": 148.82184615,
+    "min": 5.43,
+    "max": 264.49
+   },
+   "temperature_mean": {
+    "mean": 27.20969012,
+    "min": 20.30322581,
+    "max": 35.40483871
+   },
+   "SPI-1": {
+    "mean": 0.24816923,
+    "min": -2.426,
+    "max": 4.601
+   },
+   "SPI-3": {
+    "mean": 0.30432308,
+    "min": -2.231,
+    "max": 2.985
+   },
+   "SPI-6": {
+    "mean": 0.63423846,
+    "min": -2.084,
+    "max": 3.21
+   },
+   "SPI-12": {
+    "mean": 1.16181538,
+    "min": -1.419,
+    "max": 3.846
+   },
+   "SSMI": {
+    "mean": -1.282e-05,
+    "min": -2.487,
+    "max": 2.216
+   },
+   "NDVI": {
+    "mean": 0.42128335,
+    "min": 0.0547,
+    "max": 0.7698
+   },
+   "EVI": {
+    "mean": 0.28710837,
+    "min": 0.0459,
+    "max": 0.9491
+   },
+   "PCI": {
+    "mean": 0.88279033,
+    "min": 0.0979,
+    "max": 2.7991
+   }
+  },
+  "month_min": "2016-01",
+  "month_max": "2026-10",
+  "md5": "11522927e1b94186414225afed639508"
+ },
+ "weather_spi.csv": {
+  "rows": 430,
+  "cols": 14,
+  "columns": [
+   "time",
+   "precipitation_sum",
+   "et0_sum",
+   "water_deficit",
+   "temperature_mean",
+   "SPI-1",
+   "SPI-1_class",
+   "SPI-3",
+   "SPI-3_class",
+   "SPI-6",
+   "SPI-6_class",
+   "SPI-12",
+   "SPI-12_class",
+   "SSMI"
+  ],
+  "null_counts": {
+   "time": 0,
+   "precipitation_sum": 0,
+   "et0_sum": 0,
+   "water_deficit": 0,
+   "temperature_mean": 0,
+   "SPI-1": 0,
+   "SPI-1_class": 0,
+   "SPI-3": 2,
+   "SPI-3_class": 0,
+   "SPI-6": 5,
+   "SPI-6_class": 0,
+   "SPI-12": 11,
+   "SPI-12_class": 0,
+   "SSMI": 0
+  },
+  "numeric_summary": {
+   "precipitation_sum": {
+    "mean": 78.51930233,
+    "min": 0.0,
+    "max": 548.4
+   },
+   "et0_sum": {
+    "mean": 150.48237209,
+    "min": 5.43,
+    "max": 272.41
+   },
+   "water_deficit": {
+    "mean": -71.96306977,
+    "min": -272.41,
+    "max": 445.67
+   },
+   "temperature_mean": {
+    "mean": 26.88449569,
+    "min": 19.15483871,
+    "max": 35.58225806
+   },
+   "SPI-1": {
+    "mean": 0.14149177,
+    "min": -2.85356876,
+    "max": 4.60076366
+   },
+   "SPI-3": {
+    "mean": 0.08158256,
+    "min": -3.76496187,
+    "max": 2.9847826
+   },
+   "SPI-6": {
+    "mean": 0.151688,
+    "min": -3.77848499,
+    "max": 3.20997167
+   },
+   "SPI-12": {
+    "mean": 0.28614114,
+    "min": -2.6219542,
+    "max": 3.8461918
+   },
+   "SSMI": {
+    "mean": 0.0722229,
+    "min": -2.38266043,
+    "max": 8.34976139
+   }
+  },
+  "md5": "e022617a3601f33a2e607388c74c6cd7"
+ },
+ "zonal_evi.csv": {
+  "rows": 1161,
+  "cols": 8,
+  "columns": [
+   "tehsil",
+   "month",
+   "mean",
+   "median",
+   "std",
+   "min",
+   "max",
+   "valid_pixel_count"
+  ],
+  "null_counts": {
+   "tehsil": 0,
+   "month": 0,
+   "mean": 86,
+   "median": 86,
+   "std": 86,
+   "min": 86,
+   "max": 86,
+   "valid_pixel_count": 86
+  },
+  "numeric_summary": {
+   "mean": {
+    "mean": 0.28710837,
+    "min": 0.0459,
+    "max": 0.9491
+   },
+   "median": {
+    "mean": 0.27738288,
+    "min": 0.0383,
+    "max": 0.9521
+   },
+   "std": {
+    "mean": 0.10619591,
+    "min": 0.0223,
+    "max": 0.4307
+   },
+   "min": {
+    "mean": -0.22261963,
+    "min": -17.2907,
+    "max": 0.7689
+   },
+   "max": {
+    "mean": 1.10511786,
+    "min": 0.3899,
+    "max": 111.3772
+   },
+   "valid_pixel_count": {
+    "mean": 66694.33488372,
+    "min": 4.0,
+    "max": 133168.0
+   }
+  },
+  "month_min": "2016-01",
+  "month_max": "2026-10",
+  "md5": "0397393431af2616a2b5d2c368115a64"
+ },
+ "zonal_ndvi.csv": {
+  "rows": 1161,
+  "cols": 8,
+  "columns": [
+   "tehsil",
+   "month",
+   "mean",
+   "median",
+   "std",
+   "min",
+   "max",
+   "valid_pixel_count"
+  ],
+  "null_counts": {
+   "tehsil": 0,
+   "month": 0,
+   "mean": 86,
+   "median": 86,
+   "std": 86,
+   "min": 86,
+   "max": 86,
+   "valid_pixel_count": 86
+  },
+  "numeric_summary": {
+   "mean": {
+    "mean": 0.42128335,
+    "min": 0.0547,
+    "max": 0.7698
+   },
+   "median": {
+    "mean": 0.41892949,
+    "min": 0.0475,
+    "max": 0.7984
+   },
+   "std": {
+    "mean": 0.12722651,
+    "min": 0.0342,
+    "max": 0.2842
+   },
+   "min": {
+    "mean": -0.54703702,
+    "min": -1.0,
+    "max": 0.6184
+   },
+   "max": {
+    "mean": 0.84990409,
+    "min": 0.3371,
+    "max": 1.0
+   },
+   "valid_pixel_count": {
+    "mean": 66694.33488372,
+    "min": 4.0,
+    "max": 133168.0
+   }
+  },
+  "month_min": "2016-01",
+  "month_max": "2026-10",
+  "md5": "90df082ce21f7781f464dc661f010c2d"
+ },
+ "zonal_pci.csv": {
+  "rows": 1161,
+  "cols": 8,
+  "columns": [
+   "tehsil",
+   "month",
+   "mean",
+   "median",
+   "std",
+   "min",
+   "max",
+   "valid_pixel_count"
+  ],
+  "null_counts": {
+   "tehsil": 0,
+   "month": 0,
+   "mean": 86,
+   "median": 86,
+   "std": 86,
+   "min": 86,
+   "max": 86,
+   "valid_pixel_count": 86
+  },
+  "numeric_summary": {
+   "mean": {
+    "mean": 0.88279033,
+    "min": 0.0979,
+    "max": 2.7991
+   },
+   "median": {
+    "mean": 0.81694512,
+    "min": 0.0859,
+    "max": 2.6991
+   },
+   "std": {
+    "mean": 0.43204763,
+    "min": 0.0691,
+    "max": 1.1969
+   },
+   "min": {
+    "mean": -0.67936177,
+    "min": -1.0,
+    "max": 1.9555
+   },
+   "max": {
+    "mean": 3.95427181,
+    "min": 0.8142,
+    "max": 24.5
+   },
+   "valid_pixel_count": {
+    "mean": 66694.33488372,
+    "min": 4.0,
+    "max": 133168.0
+   }
+  },
+  "month_min": "2016-01",
+  "month_max": "2026-10",
+  "md5": "e6a278557b8ec60159122e6801d19bf6"
+ }
+}

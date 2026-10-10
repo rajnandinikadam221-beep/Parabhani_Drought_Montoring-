@@ -1,0 +1,73 @@
+# Real-Time & Historical Drought Monitoring for Parbhani District (2016–2026)
+# Central Configuration File
+
+study_area:
+  name: "Parbhani"
+  state: "Maharashtra"
+  country: "India"
+  shapefile: "data/Parbhani/Parbhani.shp"
+  fallback_shapefile: "data/Parabhani/Parabhani.shp"
+  crs_projected: "EPSG:32643"
+  crs_geographic: "EPSG:4326"
+
+dates:
+  study_start: "2016-01-01"
+  study_end: "2026-10-06"
+  baseline_start: "1991-01-01"
+  baseline_end: "2020-12-31"
+
+gee:
+  project_id: "dark-influence-491307-n3"
+  s2_sr_collection: "COPERNICUS/S2_SR_HARMONIZED"
+  s2_toa_collection: "COPERNICUS/S2_HARMONIZED"
+  # Scene-level pre-filter only; pixel-level Cloud Score+ masking does the real work,
+  # so the scene threshold can be relaxed (monsoon months recover clear pixels).
+  max_cloud_percentage: 60
+  max_cloud_fallback: 80          # relaxed threshold when a month has no scenes < 60%
+  cloud_score_threshold: 0.6     # Cloud Score+ cs_cdf >= 0.6 (SCL/QA60 fallback)
+  default_scale: 100             # Resolution in meters for clipped district composites
+  keep_stack: false              # keep the raw 3-band stack alongside per-index rasters
+
+soil_moisture:
+  source: "NASA/SMAP/SPL4SMGP/008"   # SMAP L4 soil moisture (spec: SMAP SPL4SMGP)
+  band: "sm_surface"
+  scale: 11000                      # SMAP native resolution (approx.)
+
+
+weather:
+  api_endpoint: "https://archive-api.open-meteo.com/v1/archive"
+  timezone: "Asia/Kolkata"
+  daily_variables:
+    - "precipitation_sum"
+    - "temperature_2m_max"
+    - "temperature_2m_min"
+    - "et0_fao_evapotranspiration"
+
+indices:
+  spi_windows: [1, 3, 6, 12]
+  cdi_weights:
+    spi: 0.35
+    ssmi: 0.25
+    ndvi_vci: 0.25
+    evi: 0.10
+    pci: 0.05
+  thresholds:
+    extreme_drought: -2.0
+    severe_drought: -1.5
+    moderate_drought: -1.0
+    mild_drought: 0.0
+
+sampling:
+  points_per_tehsil: 500
+  random_seed: 42
+  min_spacing_meters: 100
+
+ml:
+  n_estimators: 100
+  max_depth: 10
+  test_size: 0.2
+  random_state: 42
+
+api:
+  host: "127.0.0.1"
+  port: 8000

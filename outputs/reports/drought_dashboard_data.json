@@ -1,0 +1,1017 @@
+{
+  "metadata": {
+    "region": "Parbhani District, Maharashtra",
+    "total_area_km2": 6307.49,
+    "tehsils_count": 9,
+    "generated_at": "2026-10-07T15:50:44.873707"
+  },
+  "tehsils": [
+    "Gangakhed",
+    "Jintur",
+    "Manwath",
+    "Palam",
+    "Parbhani",
+    "Pathri",
+    "Purna",
+    "Selu",
+    "Sonpeth"
+  ],
+  "timeline": [
+    "2016-01",
+    "2016-02",
+    "2016-03",
+    "2016-04",
+    "2016-05",
+    "2016-06",
+    "2016-07",
+    "2016-08",
+    "2016-09",
+    "2016-10",
+    "2016-11",
+    "2016-12",
+    "2017-01",
+    "2017-02",
+    "2017-03",
+    "2017-04",
+    "2017-05",
+    "2017-06",
+    "2017-07",
+    "2017-08",
+    "2017-09",
+    "2017-10",
+    "2017-11",
+    "2017-12",
+    "2018-01",
+    "2018-02",
+    "2018-03",
+    "2018-04",
+    "2018-05",
+    "2018-06",
+    "2018-07",
+    "2018-08",
+    "2018-09",
+    "2018-10",
+    "2018-11",
+    "2018-12",
+    "2019-01",
+    "2019-02",
+    "2019-03",
+    "2019-04",
+    "2019-05",
+    "2019-06",
+    "2019-07",
+    "2019-08",
+    "2019-09",
+    "2019-10",
+    "2019-11",
+    "2019-12",
+    "2020-01",
+    "2020-02",
+    "2020-03",
+    "2020-04",
+    "2020-05",
+    "2020-06",
+    "2020-07",
+    "2020-08",
+    "2020-09",
+    "2020-10",
+    "2020-11",
+    "2020-12",
+    "2021-01",
+    "2021-02",
+    "2021-03",
+    "2021-04",
+    "2021-05",
+    "2021-06",
+    "2021-07",
+    "2021-08",
+    "2021-09",
+    "2021-10",
+    "2021-11",
+    "2021-12",
+    "2022-01",
+    "2022-02",
+    "2022-03",
+    "2022-04",
+    "2022-05",
+    "2022-06",
+    "2022-07",
+    "2022-08",
+    "2022-09",
+    "2022-10",
+    "2022-11",
+    "2022-12",
+    "2023-01",
+    "2023-02",
+    "2023-03",
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
+    "2023-11",
+    "2023-12",
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10"
+  ],
+  "latest_status": {
+    "month": "2026-10",
+    "records": [
+      {
+        "tehsil": "Gangakhed",
+        "CDI": -0.926,
+        "stage": 1,
+        "stage_name": "Mild Drought",
+        "dashboard_class": "Normal",
+        "tehsil_area_km2": 655.02
+      },
+      {
+        "tehsil": "Jintur",
+        "CDI": -1.317,
+        "stage": 2,
+        "stage_name": "Moderate Drought",
+        "dashboard_class": "Drought",
+        "tehsil_area_km2": 1252.03
+      },
+      {
+        "tehsil": "Manwath",
+        "CDI": -0.75,
+        "stage": 1,
+        "stage_name": "Mild Drought",
+        "dashboard_class": "Normal",
+        "tehsil_area_km2": 494.91
+      },
+      {
+        "tehsil": "Palam",
+        "CDI": -0.885,
+        "stage": 1,
+        "stage_name": "Mild Drought",
+        "dashboard_class": "Normal",
+        "tehsil_area_km2": 486.49
+      },
+      {
+        "tehsil": "Parbhani",
+        "CDI": -0.814,
+        "stage": 1,
+        "stage_name": "Mild Drought",
+        "dashboard_class": "Normal",
+        "tehsil_area_km2": 1142.56
+      },
+      {
+        "tehsil": "Pathri",
+        "CDI": -0.836,
+        "stage": 1,
+        "stage_name": "Mild Drought",
+        "dashboard_class": "Normal",
+        "tehsil_area_km2": 553.67
+      },
+      {
+        "tehsil": "Purna",
+        "CDI": -0.917,
+        "stage": 1,
+        "stage_name": "Mild Drought",
+        "dashboard_class": "Normal",
+        "tehsil_area_km2": 633.67
+      },
+      {
+        "tehsil": "Selu",
+        "CDI": -1.32,
+        "stage": 2,
+        "stage_name": "Moderate Drought",
+        "dashboard_class": "Drought",
+        "tehsil_area_km2": 704.93
+      },
+      {
+        "tehsil": "Sonpeth",
+        "CDI": -0.877,
+        "stage": 1,
+        "stage_name": "Mild Drought",
+        "dashboard_class": "Normal",
+        "tehsil_area_km2": 384.21
+      }
+    ]
+  },
+  "latest_stage_area_km2": {
+    "Extreme Drought": 180.97,
+    "Mild Drought": 2840.18,
+    "Moderate Drought": 1294.04,
+    "No Drought": 470.81,
+    "Severe Drought": 1521.73
+  },
+  "time_series": [
+    {
+      "month": "2016-01",
+      "precipitation_sum": 0.0,
+      "SPI-3": -1.05,
+      "CDI": -1.44
+    },
+    {
+      "month": "2016-02",
+      "precipitation_sum": 2.4,
+      "SPI-3": -0.38,
+      "CDI": -1.14
+    },
+    {
+      "month": "2016-03",
+      "precipitation_sum": 10.7,
+      "SPI-3": 0.1,
+      "CDI": -0.96
+    },
+    {
+      "month": "2016-04",
+      "precipitation_sum": 3.9,
+      "SPI-3": 0.26,
+      "CDI": -1.07
+    },
+    {
+      "month": "2016-05",
+      "precipitation_sum": 6.4,
+      "SPI-3": 0.16,
+      "CDI": -0.87
+    },
+    {
+      "month": "2016-06",
+      "precipitation_sum": 172.4,
+      "SPI-3": 0.21,
+      "CDI": -0.05
+    },
+    {
+      "month": "2016-07",
+      "precipitation_sum": 327.2,
+      "SPI-3": 0.69,
+      "CDI": 0.91
+    },
+    {
+      "month": "2016-08",
+      "precipitation_sum": 140.7,
+      "SPI-3": 0.3,
+      "CDI": 0.37
+    },
+    {
+      "month": "2016-09",
+      "precipitation_sum": 293.1,
+      "SPI-3": 1.08,
+      "CDI": 0.75
+    },
+    {
+      "month": "2016-10",
+      "precipitation_sum": 91.9,
+      "SPI-3": 0.65,
+      "CDI": 0.51
+    },
+    {
+      "month": "2016-11",
+      "precipitation_sum": 0.0,
+      "SPI-3": 0.97,
+      "CDI": 0.4
+    },
+    {
+      "month": "2016-12",
+      "precipitation_sum": 0.0,
+      "SPI-3": 0.3,
+      "CDI": 0.21
+    },
+    {
+      "month": "2017-01",
+      "precipitation_sum": 0.1,
+      "SPI-3": -1.37,
+      "CDI": -0.29
+    },
+    {
+      "month": "2017-02",
+      "precipitation_sum": 0.0,
+      "SPI-3": -0.98,
+      "CDI": -0.27
+    },
+    {
+      "month": "2017-03",
+      "precipitation_sum": 7.7,
+      "SPI-3": -0.22,
+      "CDI": -0.26
+    },
+    {
+      "month": "2017-04",
+      "precipitation_sum": 0.3,
+      "SPI-3": -0.41,
+      "CDI": -0.63
+    },
+    {
+      "month": "2017-05",
+      "precipitation_sum": 6.1,
+      "SPI-3": -0.23,
+      "CDI": -0.49
+    },
+    {
+      "month": "2017-06",
+      "precipitation_sum": 259.5,
+      "SPI-3": 0.79,
+      "CDI": 0.58
+    },
+    {
+      "month": "2017-07",
+      "precipitation_sum": 108.6,
+      "SPI-3": -0.08,
+      "CDI": -0.57
+    },
+    {
+      "month": "2017-08",
+      "precipitation_sum": 242.3,
+      "SPI-3": 0.12,
+      "CDI": -0.29
+    },
+    {
+      "month": "2017-09",
+      "precipitation_sum": 140.1,
+      "SPI-3": -0.68,
+      "CDI": -0.4
+    },
+    {
+      "month": "2017-10",
+      "precipitation_sum": 118.6,
+      "SPI-3": 0.5,
+      "CDI": 0.54
+    },
+    {
+      "month": "2017-11",
+      "precipitation_sum": 3.1,
+      "SPI-3": 0.28,
+      "CDI": 0.26
+    },
+    {
+      "month": "2017-12",
+      "precipitation_sum": 0.0,
+      "SPI-3": 0.67,
+      "CDI": 0.15
+    },
+    {
+      "month": "2018-01",
+      "precipitation_sum": 0.0,
+      "SPI-3": -0.72,
+      "CDI": -0.43
+    },
+    {
+      "month": "2018-02",
+      "precipitation_sum": 4.5,
+      "SPI-3": -0.18,
+      "CDI": -0.42
+    },
+    {
+      "month": "2018-03",
+      "precipitation_sum": 7.0,
+      "SPI-3": 0.01,
+      "CDI": -0.26
+    },
+    {
+      "month": "2018-04",
+      "precipitation_sum": 7.9,
+      "SPI-3": 0.39,
+      "CDI": -0.23
+    },
+    {
+      "month": "2018-05",
+      "precipitation_sum": 11.2,
+      "SPI-3": 0.39,
+      "CDI": -0.41
+    },
+    {
+      "month": "2018-06",
+      "precipitation_sum": 152.8,
+      "SPI-3": 0.12,
+      "CDI": 0.34
+    },
+    {
+      "month": "2018-07",
+      "precipitation_sum": 450.3,
+      "SPI-3": 1.23,
+      "CDI": 0.34
+    },
+    {
+      "month": "2018-08",
+      "precipitation_sum": 274.3,
+      "SPI-3": 1.48,
+      "CDI": 0.71
+    },
+    {
+      "month": "2018-09",
+      "precipitation_sum": 35.4,
+      "SPI-3": 1.08,
+      "CDI": 0.33
+    },
+    {
+      "month": "2018-10",
+      "precipitation_sum": 0.0,
+      "SPI-3": -0.88,
+      "CDI": -0.87
+    },
+    {
+      "month": "2018-11",
+      "precipitation_sum": 6.4,
+      "SPI-3": -2.09,
+      "CDI": -1.37
+    },
+    {
+      "month": "2018-12",
+      "precipitation_sum": 1.0,
+      "SPI-3": -1.98,
+      "CDI": -1.53
+    },
+    {
+      "month": "2019-01",
+      "precipitation_sum": 1.2,
+      "SPI-3": -0.28,
+      "CDI": -0.71
+    },
+    {
+      "month": "2019-02",
+      "precipitation_sum": 0.4,
+      "SPI-3": -0.39,
+      "CDI": -0.92
+    },
+    {
+      "month": "2019-03",
+      "precipitation_sum": 0.1,
+      "SPI-3": -0.88,
+      "CDI": -1.3
+    },
+    {
+      "month": "2019-04",
+      "precipitation_sum": 0.5,
+      "SPI-3": -1.7,
+      "CDI": -1.48
+    },
+    {
+      "month": "2019-05",
+      "precipitation_sum": 0.0,
+      "SPI-3": -2.23,
+      "CDI": -1.78
+    },
+    {
+      "month": "2019-06",
+      "precipitation_sum": 140.3,
+      "SPI-3": -0.15,
+      "CDI": -1.0
+    },
+    {
+      "month": "2019-07",
+      "precipitation_sum": 250.7,
+      "SPI-3": 0.02,
+      "CDI": -0.68
+    },
+    {
+      "month": "2019-08",
+      "precipitation_sum": 160.0,
+      "SPI-3": -0.23,
+      "CDI": -0.25
+    },
+    {
+      "month": "2019-09",
+      "precipitation_sum": 268.2,
+      "SPI-3": 0.6,
+      "CDI": 0.51
+    },
+    {
+      "month": "2019-10",
+      "precipitation_sum": 166.8,
+      "SPI-3": 1.05,
+      "CDI": 0.82
+    },
+    {
+      "month": "2019-11",
+      "precipitation_sum": 21.7,
+      "SPI-3": 1.31,
+      "CDI": 1.26
+    },
+    {
+      "month": "2019-12",
+      "precipitation_sum": 9.7,
+      "SPI-3": 1.42,
+      "CDI": 0.95
+    },
+    {
+      "month": "2020-01",
+      "precipitation_sum": 6.4,
+      "SPI-3": 0.71,
+      "CDI": 0.74
+    },
+    {
+      "month": "2020-02",
+      "precipitation_sum": 4.0,
+      "SPI-3": 0.7,
+      "CDI": 0.63
+    },
+    {
+      "month": "2020-03",
+      "precipitation_sum": 8.2,
+      "SPI-3": 0.35,
+      "CDI": 0.46
+    },
+    {
+      "month": "2020-04",
+      "precipitation_sum": 0.0,
+      "SPI-3": -0.05,
+      "CDI": -0.09
+    },
+    {
+      "month": "2020-05",
+      "precipitation_sum": 3.3,
+      "SPI-3": -0.41,
+      "CDI": -0.63
+    },
+    {
+      "month": "2020-06",
+      "precipitation_sum": 325.8,
+      "SPI-3": 1.15,
+      "CDI": 0.37
+    },
+    {
+      "month": "2020-07",
+      "precipitation_sum": 225.2,
+      "SPI-3": 0.94,
+      "CDI": 0.89
+    },
+    {
+      "month": "2020-08",
+      "precipitation_sum": 247.6,
+      "SPI-3": 1.11,
+      "CDI": 1.02
+    },
+    {
+      "month": "2020-09",
+      "precipitation_sum": 267.4,
+      "SPI-3": 0.97,
+      "CDI": 0.85
+    },
+    {
+      "month": "2020-10",
+      "precipitation_sum": 121.0,
+      "SPI-3": 1.27,
+      "CDI": 0.88
+    },
+    {
+      "month": "2020-11",
+      "precipitation_sum": 1.7,
+      "SPI-3": 1.0,
+      "CDI": 0.86
+    },
+    {
+      "month": "2020-12",
+      "precipitation_sum": 0.0,
+      "SPI-3": 0.68,
+      "CDI": 0.51
+    },
+    {
+      "month": "2021-01",
+      "precipitation_sum": 0.2,
+      "SPI-3": -0.88,
+      "CDI": -0.04
+    },
+    {
+      "month": "2021-02",
+      "precipitation_sum": 9.0,
+      "SPI-3": 0.18,
+      "CDI": 0.32
+    },
+    {
+      "month": "2021-03",
+      "precipitation_sum": 4.3,
+      "SPI-3": 0.12,
+      "CDI": 0.18
+    },
+    {
+      "month": "2021-04",
+      "precipitation_sum": 0.8,
+      "SPI-3": 0.08,
+      "CDI": -0.05
+    },
+    {
+      "month": "2021-05",
+      "precipitation_sum": 25.2,
+      "SPI-3": 0.56,
+      "CDI": 0.19
+    },
+    {
+      "month": "2021-06",
+      "precipitation_sum": 197.8,
+      "SPI-3": 0.51,
+      "CDI": 0.62
+    },
+    {
+      "month": "2021-07",
+      "precipitation_sum": 255.7,
+      "SPI-3": 0.54,
+      "CDI": 0.28
+    },
+    {
+      "month": "2021-08",
+      "precipitation_sum": 176.3,
+      "SPI-3": 0.24,
+      "CDI": 0.32
+    },
+    {
+      "month": "2021-09",
+      "precipitation_sum": 483.2,
+      "SPI-3": 1.91,
+      "CDI": 1.31
+    },
+    {
+      "month": "2021-10",
+      "precipitation_sum": 63.2,
+      "SPI-3": 1.72,
+      "CDI": 1.07
+    },
+    {
+      "month": "2021-11",
+      "precipitation_sum": 13.8,
+      "SPI-3": 1.74,
+      "CDI": 0.8
+    },
+    {
+      "month": "2021-12",
+      "precipitation_sum": 4.4,
+      "SPI-3": 0.15,
+      "CDI": 0.31
+    },
+    {
+      "month": "2022-01",
+      "precipitation_sum": 7.2,
+      "SPI-3": 0.39,
+      "CDI": 0.53
+    },
+    {
+      "month": "2022-02",
+      "precipitation_sum": 0.0,
+      "SPI-3": 0.32,
+      "CDI": 0.22
+    },
+    {
+      "month": "2022-03",
+      "precipitation_sum": 0.0,
+      "SPI-3": -0.27,
+      "CDI": 0.01
+    },
+    {
+      "month": "2022-04",
+      "precipitation_sum": 0.8,
+      "SPI-3": -1.8,
+      "CDI": -0.65
+    },
+    {
+      "month": "2022-05",
+      "precipitation_sum": 0.6,
+      "SPI-3": -1.81,
+      "CDI": -0.99
+    },
+    {
+      "month": "2022-06",
+      "precipitation_sum": 173.5,
+      "SPI-3": 0.15,
+      "CDI": -0.35
+    },
+    {
+      "month": "2022-07",
+      "precipitation_sum": 447.9,
+      "SPI-3": 1.26,
+      "CDI": 1.11
+    },
+    {
+      "month": "2022-08",
+      "precipitation_sum": 246.4,
+      "SPI-3": 1.44,
+      "CDI": 1.53
+    },
+    {
+      "month": "2022-09",
+      "precipitation_sum": 226.8,
+      "SPI-3": 1.94,
+      "CDI": 1.4
+    },
+    {
+      "month": "2022-10",
+      "precipitation_sum": 173.7,
+      "SPI-3": 1.33,
+      "CDI": 0.96
+    },
+    {
+      "month": "2022-11",
+      "precipitation_sum": 0.0,
+      "SPI-3": 1.05,
+      "CDI": 0.51
+    },
+    {
+      "month": "2022-12",
+      "precipitation_sum": 2.3,
+      "SPI-3": 1.22,
+      "CDI": 0.63
+    },
+    {
+      "month": "2023-01",
+      "precipitation_sum": 0.7,
+      "SPI-3": -0.73,
+      "CDI": 0.11
+    },
+    {
+      "month": "2023-02",
+      "precipitation_sum": 0.0,
+      "SPI-3": -0.34,
+      "CDI": -0.06
+    },
+    {
+      "month": "2023-03",
+      "precipitation_sum": 16.8,
+      "SPI-3": 0.3,
+      "CDI": 0.34
+    },
+    {
+      "month": "2023-04",
+      "precipitation_sum": 45.5,
+      "SPI-3": 1.89,
+      "CDI": 0.98
+    },
+    {
+      "month": "2023-05",
+      "precipitation_sum": 7.4,
+      "SPI-3": 1.69,
+      "CDI": 0.83
+    },
+    {
+      "month": "2023-06",
+      "precipitation_sum": 70.7,
+      "SPI-3": -0.32,
+      "CDI": -0.88
+    },
+    {
+      "month": "2023-07",
+      "precipitation_sum": 319.2,
+      "SPI-3": 0.06,
+      "CDI": -0.2
+    },
+    {
+      "month": "2023-08",
+      "precipitation_sum": 73.5,
+      "SPI-3": -0.8,
+      "CDI": -0.57
+    },
+    {
+      "month": "2023-09",
+      "precipitation_sum": 210.9,
+      "SPI-3": 0.12,
+      "CDI": 0.24
+    },
+    {
+      "month": "2023-10",
+      "precipitation_sum": 1.6,
+      "SPI-3": -1.09,
+      "CDI": -0.27
+    },
+    {
+      "month": "2023-11",
+      "precipitation_sum": 49.3,
+      "SPI-3": 0.28,
+      "CDI": -0.17
+    },
+    {
+      "month": "2023-12",
+      "precipitation_sum": 1.6,
+      "SPI-3": -0.35,
+      "CDI": 0.25
+    },
+    {
+      "month": "2024-01",
+      "precipitation_sum": 10.7,
+      "SPI-3": 1.17,
+      "CDI": 0.67
+    },
+    {
+      "month": "2024-02",
+      "precipitation_sum": 0.2,
+      "SPI-3": 0.37,
+      "CDI": 0.15
+    },
+    {
+      "month": "2024-03",
+      "precipitation_sum": 0.0,
+      "SPI-3": -0.02,
+      "CDI": -0.31
+    },
+    {
+      "month": "2024-04",
+      "precipitation_sum": 25.6,
+      "SPI-3": 0.7,
+      "CDI": 0.47
+    },
+    {
+      "month": "2024-05",
+      "precipitation_sum": 8.9,
+      "SPI-3": 0.71,
+      "CDI": 0.03
+    },
+    {
+      "month": "2024-06",
+      "precipitation_sum": 392.8,
+      "SPI-3": 1.63,
+      "CDI": 0.41
+    },
+    {
+      "month": "2024-07",
+      "precipitation_sum": 451.8,
+      "SPI-3": 2.23,
+      "CDI": 1.41
+    },
+    {
+      "month": "2024-08",
+      "precipitation_sum": 310.2,
+      "SPI-3": 2.63,
+      "CDI": 1.65
+    },
+    {
+      "month": "2024-09",
+      "precipitation_sum": 261.0,
+      "SPI-3": 2.44,
+      "CDI": 1.35
+    },
+    {
+      "month": "2024-10",
+      "precipitation_sum": 110.2,
+      "SPI-3": 1.51,
+      "CDI": 0.84
+    },
+    {
+      "month": "2024-11",
+      "precipitation_sum": 0.1,
+      "SPI-3": 0.9,
+      "CDI": 0.53
+    },
+    {
+      "month": "2024-12",
+      "precipitation_sum": 15.4,
+      "SPI-3": 0.72,
+      "CDI": 0.49
+    },
+    {
+      "month": "2025-01",
+      "precipitation_sum": 0.0,
+      "SPI-3": 0.05,
+      "CDI": 0.18
+    },
+    {
+      "month": "2025-02",
+      "precipitation_sum": 0.0,
+      "SPI-3": 0.51,
+      "CDI": 0.03
+    },
+    {
+      "month": "2025-03",
+      "precipitation_sum": 0.0,
+      "SPI-3": -1.5,
+      "CDI": -0.9
+    },
+    {
+      "month": "2025-04",
+      "precipitation_sum": 0.9,
+      "SPI-3": -1.75,
+      "CDI": -0.9
+    },
+    {
+      "month": "2025-05",
+      "precipitation_sum": 140.9,
+      "SPI-3": 2.98,
+      "CDI": 1.42
+    },
+    {
+      "month": "2025-06",
+      "precipitation_sum": 96.9,
+      "SPI-3": 0.61,
+      "CDI": 0.1
+    },
+    {
+      "month": "2025-07",
+      "precipitation_sum": 332.2,
+      "SPI-3": 1.01,
+      "CDI": 0.4
+    },
+    {
+      "month": "2025-08",
+      "precipitation_sum": 360.6,
+      "SPI-3": 1.07,
+      "CDI": 1.03
+    },
+    {
+      "month": "2025-09",
+      "precipitation_sum": 411.1,
+      "SPI-3": 2.81,
+      "CDI": 1.77
+    },
+    {
+      "month": "2025-10",
+      "precipitation_sum": 89.3,
+      "SPI-3": 2.36,
+      "CDI": 1.2
+    },
+    {
+      "month": "2025-11",
+      "precipitation_sum": 7.4,
+      "SPI-3": 1.53,
+      "CDI": 0.87
+    },
+    {
+      "month": "2025-12",
+      "precipitation_sum": 0.0,
+      "SPI-3": 0.36,
+      "CDI": 0.27
+    },
+    {
+      "month": "2026-01",
+      "precipitation_sum": 0.4,
+      "SPI-3": -0.33,
+      "CDI": 0.25
+    },
+    {
+      "month": "2026-02",
+      "precipitation_sum": 0.2,
+      "SPI-3": -0.77,
+      "CDI": 0.17
+    },
+    {
+      "month": "2026-03",
+      "precipitation_sum": 0.3,
+      "SPI-3": -1.06,
+      "CDI": -0.32
+    },
+    {
+      "month": "2026-04",
+      "precipitation_sum": 7.7,
+      "SPI-3": -0.39,
+      "CDI": -0.26
+    },
+    {
+      "month": "2026-05",
+      "precipitation_sum": 4.4,
+      "SPI-3": -0.34,
+      "CDI": -0.44
+    },
+    {
+      "month": "2026-06",
+      "precipitation_sum": 112.5,
+      "SPI-3": -0.31,
+      "CDI": -0.76
+    },
+    {
+      "month": "2026-07",
+      "precipitation_sum": 319.6,
+      "SPI-3": 0.3,
+      "CDI": -0.37
+    },
+    {
+      "month": "2026-08",
+      "precipitation_sum": 120.8,
+      "SPI-3": -0.22,
+      "CDI": -0.71
+    },
+    {
+      "month": "2026-09",
+      "precipitation_sum": 69.1,
+      "SPI-3": -0.55,
+      "CDI": -0.51
+    },
+    {
+      "month": "2026-10",
+      "precipitation_sum": 0.1,
+      "SPI-3": -2.09,
+      "CDI": -0.96
+    }
+  ]
+}

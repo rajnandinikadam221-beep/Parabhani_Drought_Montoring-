@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-10-08T14:10:55",
+  "study_area": "Parbhani",
+  "total_elapsed_seconds": 2.9,
+  "sentinel_raster_files": 387,
+  "sentinel_raster_gb": 0.717,
+  "sentinel_scenes_queried": 2293,
+  "sentinel_composites": 129,
+  "weather_csv_mb": 0.082,
+  "months_without_raster": [
+    "2016-02"
+  ],
+  "months_fully_masked": [
+    "2016-07",
+    "2024-07"
+  ],
+  "mask_method_counts": {
+    "cloud_score_plus": 124,
+    "cloud_score_plus_cloud80": 5
+  },
+  "filter_tier_counts": {
+    "SR": 119,
+    "TOA": 10
+  },
+  "csv_row_counts": {
+    "point_index_values.csv": 580242,
+    "rf_classification_report.csv": 6,
+    "rf_classification_report_spi3_stage.csv": 7,
+    "sentinel2_indices.csv": 129,
+    "soil_moisture_ssmi.csv": 1170,
+    "stage_area_summary.csv": 5850,
+    "stratified_sample_points.csv": 4498,
+    "tehsil_drought_stages.csv": 1170,
+    "tehsil_zonal_indices.csv": 1170,
+    "weather_spi.csv": 430,
+    "zonal_evi.csv": 1161,
+    "zonal_ndvi.csv": 1161,
+    "zonal_pci.csv": 1161
+  },
+  "classified_rasters": 130,
+  "spatial_points": 4498,
+  "stage_timings_s": {
+    "shapefile": 0.27,
+    "weather_spi": 0.01,
+    "zonal_indices": 0.01,
+    "drought_classification": 0.01,
+    "spatial_sampling": 0.01,
+    "ml_random_forest": 0.04,
+    "visualizations": 0.0
+  },
+  "output_files_count": 665,
+  "output_total_gb": 0.835,
+  "warnings": []
+}
